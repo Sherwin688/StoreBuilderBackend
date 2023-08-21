@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(cors({
   origin: 'https://main--enchanting-bunny-435412.netlify.app'
 }));
-//
-const shopifyApiUrl = process.env.SHOPIFY_APP_URL;
+
+const shopifyApiUrl ="https://quickstart-e02efb26.myshopify.com/admin/api/2023-07";
 
 app.get('/api/shopify/products', async (req, res) => {
 
