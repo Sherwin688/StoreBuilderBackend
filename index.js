@@ -9,7 +9,7 @@ const cors = require("cors")
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://main--enchanting-bunny-435412.netlify.app'
+  origin: 'https://enchanting-bunny-435412.netlify.app'
 }));
 
 const shopifyApiUrl ="https://quickstart-e02efb26.myshopify.com/admin/api/2023-07";
