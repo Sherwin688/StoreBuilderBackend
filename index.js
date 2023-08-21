@@ -19,7 +19,7 @@ app.get('/api/shopify/products', async (req, res) => {
   try {
     const response = await axios.get(`${shopifyApiUrl}/products.json`, {
       headers: {
-        "X-Shopify-Access-Token": getToken()
+        "X-Shopify-Access-Token": "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"
       },
     });
     const products = response.data.products.map((product) => {
