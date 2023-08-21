@@ -5,6 +5,7 @@ const { default: getUrl } = require("./helper/helper");
 const app = express();
 const {getToken} = require("./helper/helper")
 const port = process.env.PORT || 8000; 
+const cors = require("cors")
 
 app.use(express.json());
 app.use(cors({
